@@ -1,0 +1,10 @@
+{
+  "name": "LUC-Dentalutions",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "npx tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}
