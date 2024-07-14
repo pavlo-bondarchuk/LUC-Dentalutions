@@ -560,39 +560,33 @@ video {
   padding-left: 20px;
 }
 
+@media (min-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
 @media (min-width: 430px) {
   .container {
     max-width: 430px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-}
-
-@media (min-width: 1248px) {
-  .container {
-    max-width: 1248px;
     padding-right: 0;
     padding-left: 0;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
   .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
+    max-width: 1440px;
   }
 }
 
@@ -779,7 +773,7 @@ video {
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-@media (min-width: 430px) {
+@media (min-width: 320px) {
   .sm\:h-\[27px\] {
     height: 27px;
   }
@@ -805,7 +799,7 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 430px) {
   .md\:h-\[37px\] {
     height: 37px;
   }
