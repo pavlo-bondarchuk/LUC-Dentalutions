@@ -67,12 +67,19 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Noto Sans", "sans-serif"],
+        serif: ["Noto Serif", "serif"],
       },
       fontSize: {
-        lg: ["20px", "28px"],
-        md: ["16px", "24px"],
-        sm: ["14px", "20px"],
-        xs: ["12px", "16px"],
+        hero: ["48px", "56px"],
+        h2: ["40px", "48px"],
+        h3: ["32px", "40px"],
+        h4: ["28px", "36px"],
+        h5: ["24px", "32px"],
+        h6: ["20px", "24px"],
+        "body-lg": ["20px", "28px"],
+        "body-md": ["16px", "24px"],
+        "body-sm": ["14px", "20px"],
+        "body-xs": ["12px", "16px"],
       },
       screens: {
         mobile: "430px",
