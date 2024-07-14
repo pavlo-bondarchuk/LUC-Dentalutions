@@ -114,10 +114,10 @@ module.exports = {
         desktop: "1248px",
       },
       boxShadow: {
-        header: "0 0 8px 0 rgba(1, 28, 121, 0.08)",
+        "drop-shadow": "0 2px 8px 0 rgba(1, 28, 121, 0.08)",
       },
-      backdropBlur: {
-        header: "16px",
+      backdrop: {
+        blur: "16px",
       },
     },
   },
