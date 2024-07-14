@@ -617,11 +617,6 @@ video {
   border-radius: 9999px;
 }
 
-.bg-buttonBg {
-  --tw-bg-opacity: 1;
-  background-color: rgb(2 55 241 / var(--tw-bg-opacity));
-}
-
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -689,11 +684,6 @@ video {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-
-.text-primary {
-  --tw-text-opacity: 1;
-  color: rgb(1 28 121 / var(--tw-text-opacity));
 }
 
 .text-white {
