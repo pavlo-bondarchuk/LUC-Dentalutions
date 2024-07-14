@@ -556,11 +556,15 @@ video {
 
 .container {
   width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 @media (min-width: 430px) {
   .container {
     max-width: 430px;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 
@@ -573,18 +577,24 @@ video {
 @media (min-width: 1248px) {
   .container {
     max-width: 1248px;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 }
 
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
+    padding-right: 5rem;
+    padding-left: 5rem;
   }
 }
 
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
+    padding-right: 6rem;
+    padding-left: 6rem;
   }
 }
 
