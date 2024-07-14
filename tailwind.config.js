@@ -115,6 +115,15 @@ module.exports = {
         md: "1024px",
         lg: "1248px",
       },
+      container: {
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
+        },
+      },
       boxShadow: {
         "drop-shadow": "0 2px 8px 0 rgba(1, 28, 121, 0.08)",
       },
