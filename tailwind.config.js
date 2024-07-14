@@ -89,7 +89,9 @@ module.exports = {
         8: "8px",
         12: "12px",
         16: "16px",
+        17: "17px",
         20: "20px",
+        21: "21px",
         24: "24px",
         28: "28px",
         32: "32px",
@@ -109,9 +111,9 @@ module.exports = {
         "2xl": "64px",
       },
       screens: {
-        mobile: "430px",
-        tablet: "1024px",
-        desktop: "1248px",
+        sm: "430px",
+        md: "1024px",
+        lg: "1248px",
       },
       boxShadow: {
         "drop-shadow": "0 2px 8px 0 rgba(1, 28, 121, 0.08)",
