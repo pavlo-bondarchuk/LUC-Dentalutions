@@ -2,6 +2,26 @@
 module.exports = {
   content: ["./public/**/*.html", "./src/**/*.css", "./src/**/*.js"],
   theme: {
+    screens: {
+      sm: "320px",
+      md: "430px",
+      lg: "1024px",
+      xl: "1440px",
+    },
+    container: {
+      width: {
+        DEFAULT: "100%",
+        sm: "100%",
+        md: "100%",
+        lg: "1248px",
+      },
+      padding: {
+        DEFAULT: "20px",
+        sm: "20px",
+        md: "30px",
+        lg: "0",
+      },
+    },
     extend: {
       colors: {
         neutral: {
@@ -109,25 +129,6 @@ module.exports = {
         lg: "16px",
         xl: "32px",
         "2xl": "64px",
-      },
-      screens: {
-        sm: "430px",
-        md: "1024px",
-        lg: "1248px",
-      },
-      container: {
-        width: {
-          DEFAULT: "100%",
-          sm: "100%",
-          md: "100%",
-          lg: "1248px",
-        },
-        padding: {
-          DEFAULT: "20px",
-          sm: "20px",
-          md: "30px",
-          lg: "0",
-        },
       },
       boxShadow: {
         "drop-shadow": "0 2px 8px 0 rgba(1, 28, 121, 0.08)",
