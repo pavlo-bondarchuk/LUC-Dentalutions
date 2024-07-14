@@ -3,10 +3,10 @@ module.exports = {
   content: ["./public/**/*.html", "./src/**/*.css", "./src/**/*.js"],
   theme: {
     screens: {
-      "sm": "320px",
-      "md": "430px",
-      "lg": "1024px",
-      "xl": "1440px",
+      sm: "320px",
+      md: "430px",
+      lg: "1024px",
+      xl: "1440px",
     },
     container: {
       width: {
@@ -14,6 +14,12 @@ module.exports = {
         sm: "100%",
         md: "100%",
         lg: "1248px",
+      },
+      margin: {
+        DEFAULT: "20px",
+        sm: "20px",
+        md: "30px",
+        lg: "0",
       },
       padding: {
         DEFAULT: "20px",
