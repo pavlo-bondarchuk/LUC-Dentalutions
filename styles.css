@@ -556,45 +556,43 @@ video {
 
 .container {
   width: 100%;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media (min-width: 430px) {
   .container {
     max-width: 430px;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
 @media (min-width: 1248px) {
   .container {
     max-width: 1248px;
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding-right: 5rem;
-    padding-left: 5rem;
   }
 }
 
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
-    padding-right: 6rem;
-    padding-left: 6rem;
   }
 }
 
