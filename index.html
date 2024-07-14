@@ -6,24 +6,26 @@
   <title>LUC Dentalutions</title>
   <link href="styles.css" rel="stylesheet">
 </head>
-<body class="bg-neutral-10 text-content-primary">
+<body class="bg-content-secondary text-content-primary">
   <!-- Header -->
-  <header class="bg-surface-secondary shadow-drop-shadow backdrop-blur">
-    <div class="container mx-auto flex justify-between items-center">
-      <div class="flex items-center pt-[22px] pb-[21px] sm:pt-[30px] sm:pb-[30px] pl-[20px] sm:pl-[30px]">
-        <img src="images/logo.png" alt="Dentalutions Logo" class="w-[108px] h-[20px] sm:w-[146px] sm:h-[27px] md:w-[200px] md:h-[37px]">
+  <header class="w-full p-20 md:p-30 lg:p-0 lg:mt-48 sticky top-0">
+    <div class="container mx-auto flex justify-between items-center shadow-drop-shadow backdrop-blur">
+      <div class="w-1/2 flex items-center pt-[22px] pb-[21px] sm:pt-[30px] sm:pb-[30px] pl-[20px] sm:pl-[30px]">
+        <img src="images/logo.png" alt="Dentalutions Logo" class="w-[108px] h-[20px] sm:w-[108px] sm:h-[20px] md:w-[145px] md:h-[27px] lg:w-[200px] lg:h-[37px]">
       </div>
-      <nav class="flex space-x-8 items-center pt-[17px] pb-[17px] sm:pt-[30px] sm:pb-[30px] pr-[20px] sm:pr-[30px]">
-        <a href="#leistungen" class="text-surface-primary font-normal text-lg">Leistungen</a>
-        <a href="#uber" class="text-surface-primary font-normal text-lg">Über</a>
-        <a href="#faq" class="text-surface-primary font-normal text-lg">FAQ</a>
-        <a href="#jetzt-anfragen" class="flex items-center bg-surface-primary text-content-secondary rounded-full px-8 py-2">
-          <span class="font-normal text-lg">Jetzt anfragen</span>
+      <div class="w-1/2 flex justify-end items-center pr-16">
+        <nav class="hidden lg:flex space-x-8 items-center pt-[17px] pb-[17px] sm:pt-[30px] sm:pb-[30px] pr-[20px] sm:pr-[30px]">
+          <a href="#leistungen" class="text-content-primary font-normal text-lg">Leistungen</a>
+          <a href="#uber" class="text-content-primary font-normal text-lg">Über</a>
+          <a href="#faq" class="text-content-primary font-normal text-lg">FAQ</a>
+        </nav>
+        <a href="#jetzt-anfragen" class="w-fit flex items-center bg-surface-primary text-content-secondary rounded-full px-20 py-6 md:px-32 md:py-11 text-body-sm sm:text-body-sm md:text-body-md lg:text-body-lg">
+          <span class="font-normal">Jetzt anfragen</span>
           <svg class="ml-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <use href="#arrow-icon"></use>
           </svg>
         </a>
-      </nav>
+      </div>
     </div>
   </header>
 
@@ -46,12 +48,5 @@
       </symbol>
     </svg>
   </footer>
-
-  <script>
-    document.getElementById('menu-button').addEventListener('click', function() {
-      const nav = document.querySelector('nav ul');
-      nav.classList.toggle('hidden');
-    });
-  </script>
 </body>
 </html>
