@@ -682,11 +682,6 @@ video {
   padding: 1.5rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .px-8 {
   padding-left: 8px;
   padding-right: 8px;
@@ -795,11 +790,6 @@ video {
     width: 146px;
   }
 
-  .sm\:px-7 {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
-  }
-
   .sm\:pb-\[30px\] {
     padding-bottom: 30px;
   }
@@ -824,10 +814,5 @@ video {
 
   .md\:w-\[200px\] {
     width: 200px;
-  }
-
-  .md\:px-4 {
-    padding-left: 4px;
-    padding-right: 4px;
   }
 }
