@@ -116,12 +116,17 @@ module.exports = {
         lg: "1248px",
       },
       container: {
+        width: {
+          DEFAULT: "100%",
+          sm: "100%",
+          md: "100%",
+          lg: "1248px",
+        },
         padding: {
-          DEFAULT: "1rem",
-          sm: "2rem",
-          lg: "4rem",
-          xl: "5rem",
-          "2xl": "6rem",
+          DEFAULT: "20px",
+          sm: "20px",
+          md: "30px",
+          lg: "0",
         },
       },
       boxShadow: {
